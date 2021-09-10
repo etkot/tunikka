@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './header.scss';
 
-const Header = (): JSX.Element => {
+const Header: FC = () => {
   return (
     <div className='header'>
       <p className='text'>Date, Time, etc.</p>
     </div>
   );
 };
-
+ 
 export default Header;

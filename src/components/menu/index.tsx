@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
+import tuniLogo from '../../assets/images/tuni.png';
 import './menu.scss';
-import tuniLogo from '../../images/tuni.png';
 
-const Menu = (): JSX.Element => {
+const Menu: FC = () => {
   return (
     <div className='menu'>
       <div className='menu-row'>
@@ -10,7 +10,7 @@ const Menu = (): JSX.Element => {
       </div>
       <div className='menu-row'>
         <h1 className='title'>TUNIKKA</h1>
-      </div>
+      </div> 
     </div>
   );
 };

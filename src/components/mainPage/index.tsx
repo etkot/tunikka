@@ -1,8 +1,8 @@
-import React from 'react';
-import Menu from '../menu';
+import React, { FC } from 'react';
+import Menu from 'src/components/menu';
 import './mainPage.scss';
 
-const MainPage = (): JSX.Element => {
+const MainPage: FC = () => {
   return (
     <div className='mainPage'>
       <Menu />

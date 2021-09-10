@@ -1,17 +1,3 @@
-## Project boilerplate
-
-This is a React Typescript boilerplate. This includes some premade style files and configs for eslint and prettier.
-
-## When using this repo!
-
-This boilerplate should be updated before using it for a new project. <br />
-Update instructions: <br />
-
-1. Install npm-check-udates package if not yet installed: npm install -g npm-check-updates
-2. Update the package.json file: ncu --upgrade
-3. Install updates: npm install
-4. Commit new changes to Bitbucket
-
 ## Available Scripts
 
 In the project directory, you can run:

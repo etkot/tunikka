@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.header {
+  width: 80vw;
+  height: 2.5rem;
+  position: fixed;
+  left: 20vw;
+  z-index: 50;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(black, 0.25);
+
+  .text {
+    font-size: 1rem;
+    text-align: right;
+    color: rgb(34, 34, 34);
+    margin: 0.5rem;
+  }
+}

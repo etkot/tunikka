@@ -1,0 +1,30 @@
+@import '../../scss/variables';
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-color;
+  width: 20vw;
+  height: 100vh;
+  z-index: 100;
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    font-family: Lato-Bold;
+  }
+}
+
+.tuni-logo {
+  width: 2.5rem;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+  margin-left: auto;
+}

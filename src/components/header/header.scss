@@ -1,17 +1,30 @@
 @import '../../scss/variables';
 
 .header {
-  width: 80vw;
-  height: 2.5rem;
+  background-color: #390067;
+  width: 100vw;
+  height: 3rem;
   position: fixed;
-  left: 20vw;
   z-index: 50;
-  box-shadow: 0rem 0.25rem 0.25rem rgba(black, 0.25);
+  box-shadow: 0rem 0.25rem 0.5rem rgba(black, 0.5);
 
+  .info {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+  }
   .text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: right;
-    color: rgb(34, 34, 34);
+    color: $text-color;
     margin: 0.5rem;
+
+    &.date {
+      margin-left: 0rem;
+      margin-right: 0.3rem;
+    }
   }
 }
